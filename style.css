@@ -1,0 +1,157 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;  
+
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    text-decoration-color: aqua;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347;
+  }
+  
+  .section {
+    padding: 100px 20px;
+    max-width: 800px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* General styling for the form */
+/* Styling for the contact section */
+.contact-section {
+    margin: 2rem;
+    max-width: 600px;
+    
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+    
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #e4614a; /* Adds an accent underline */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align elements to the left */
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 500px;
+  
+    /* Enhanced box shadow for depth */
+    box-shadow: -5px -5px 12px rgba(255, 99, 71, 0.1), 8px 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Form label styling */
+  form label {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  /* Input and textarea styling */
+  form input, form textarea, form button {
+    width: 100%;
+    max-width: 100%; /* Ensure full width within the form */
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  /* Button styling */
+  form button {
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none; /* Remove button border for a cleaner look */
+    margin-top: 1rem;
+  }
+  
+  form button:hover {
+    background-color: #333333;
+  }
+  .section p{
+    color:rgb(172, 64, 109) ;
+  }
+  .section h2{
+    color:black;
+  }
+  section ul{
+    padding-left: 40px;
+    color:rgb(0, 89, 255);
+  }
+  body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Set the body height to full viewport height */
+    font-family: Arial, sans-serif; /* Choose a font */
+}
+
+.background {
+    background-image: url('ba.jpg'); /* Add your image path here */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Fix the background image */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex; /* Use flexbox for centering content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+}
